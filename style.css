@@ -1,0 +1,15 @@
+body {
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+}
+#img_screenshot {
+	float:left;
+	padding:1px;
+	width:300px;
+}
+#content {
+	background-color:#DBDBDB;
+	border-radius:10px;
+	padding:15px 15px 15px 15px;
+	margin:auto;
+	width:960px;
+}
