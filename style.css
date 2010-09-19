@@ -1,3 +1,9 @@
+body {
+	width:760px;
+	margin:40px auto;
+	background-color:#777;
+}
+
 #logo {
 	width:320px;
 }
