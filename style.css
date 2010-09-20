@@ -12,7 +12,6 @@ body {
 
 /*display nav-bar list to the right*/
 header nav ul {
-	top-margin:0;
 	padding:0;
 	text-align:right;
 }
@@ -22,3 +21,4 @@ header nav ul li{
 	margin:0;
 	padding:10px;
 }
+
