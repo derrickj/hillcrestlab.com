@@ -10,11 +10,18 @@ body {
 	width:320px;
 }
 
+/*screenshot image allows text to flow around it to its right*/
+#screenshot {
+	width:320px;
+	float:left;
+}
+
 /*display nav-bar list to the right*/
 header nav ul {
 	padding:0;
 	text-align:right;
 }
+
 /*make list items appear on the same line, and give them some space between each other*/
 header nav ul li{
 	display:inline;
