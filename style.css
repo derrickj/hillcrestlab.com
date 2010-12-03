@@ -6,8 +6,20 @@ body {
 	font-weight:200;
 }
 
-#logo {
-	width:320px;
+a#logo{
+	text-decoration:none;
+	font-size:7em;
+}
+a#logo #hillcrest{
+	color:#0FD1F7;
+	font-weight:100;
+}
+/*shift lab to the left to touch the t*/
+a#logo #lab{
+	position:relative;
+	left:-9px;
+	font-weight:900;
+	color:#37DE50;
 }
 
 /*screenshot image allows text to flow around it to its right*/
