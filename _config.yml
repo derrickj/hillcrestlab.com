@@ -1,6 +1,6 @@
 safe:        false
 auto:        false
-server:      false
+server:      true
 server_port: 4000
 
 source:      .
