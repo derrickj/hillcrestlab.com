@@ -25,29 +25,30 @@ a#logo #lab{
 	color:#37DE50;
 }
 
+header {
+	border-bottom:1px dotted black;
+}
+header nav {
+	background-color:red;
+}
+header nav ul {
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	float:right;
+	background-color:red;
+	position:relative;
+	bottom:1em;
+}
+header nav ul li {
+	float:left;
+	margin-bottom:0;
+	margin-right:0.5em;
+	line-height:1;
+}
 /*screenshot image allows text to flow around it to its right*/
 #screenshot {
 	width:320px;
 	float:right;
-}
-
-header {
-	border-bottom:1px dotted black;
-}
-/*make list items appear on the same line in nav bar*/
-header nav ul, header nav ul li{
-	display:inline;
-	margin:0;
-}
-
-header nav ul li{
-	text-align:right;
-	padding:0 1em;
-}
-
-header nav{
-	background-color:red;
-	float:right;
-	position:relative;
-	bottom:1.2em;
 }
