@@ -6,7 +6,7 @@ server_port: 4000
 source:      .
 destination: ./_site
 plugins:     ./_plugins
-exclude:    old
+exclude:    push_changes.sh
 
 future:      true
 lsi:         false
