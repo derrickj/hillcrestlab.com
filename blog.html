@@ -2,7 +2,8 @@
 layout: base
 title: Blog
 ---
-{% for post in site.posts %}
+<h1>Blog</h1>
+{% for post in site.posts limit:10 %}
 <article id="{{ post.id }}">
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <span class="date">{{ post.date | date: '%a, %b %d, %Y'}}</span>
@@ -10,3 +11,5 @@ title: Blog
 <p>This would be my footer.</p>
 </article>
 {% endfor %}
+
+<div id="next"><a href="/archive.html">Archive</a></div>
