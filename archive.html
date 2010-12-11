@@ -1,0 +1,14 @@
+---
+layout: base
+title: Blog Archive
+---
+<h1>Blog Archive</h1>
+<ul>
+{% for post in site.posts %}
+<li>
+<a href="{{ post.url }}">{{ post.title }}</a>
+<div class="date">{{ post.date | date: '%a, %b %d, %Y'}}</span>
+</li>
+{% endfor %}
+</ul>
+<div id="prev"><a href="/blog.html">Back to Blog</a></div>
