@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Regions 1.0 for iPhone Submitted for App Store Approval
 ---
 Title says it all. Let’s see how long this takes. I recommend following the instructions for setting up a distribution profile in XCode precisely. Saving the instructions as a PDF produced a whopping 17 pages! Figuring out which of the 20-30 steps you missed after your app signing fails is not fun.
 
