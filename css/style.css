@@ -28,25 +28,31 @@ a#logo #lab{
 header {
 	border-bottom:1px dotted black;
 }
-header nav {
-	background-color:red;
-}
+
 header nav ul {
 	overflow:hidden;
 	margin:0;
-	padding:0;
+	padding:0.4em 0 0 0;
 	list-style-type:none;
 	float:right;
-	background-color:red;
+	background-color:#8a8a8a;
 	position:relative;
-	bottom:1em;
+	bottom:1.4em; /*1 + 0.4 for bottom to be flush with header bottom*/
+	
+	-moz-border-radius:0.4em 0.4em 0 0;	
+	border-radius:0.4em 0.4em 0 0;
 }
 header nav ul li {
 	float:left;
 	margin-bottom:0;
-	margin-right:0.5em;
 	line-height:1;
+	padding:0 0.8em;
 }
+/*all links purple*/
+a {
+	color:#5C00B8;
+}
+
 /*screenshot image allows text to flow around it to its right*/
 #screenshot {
 	width:320px;
