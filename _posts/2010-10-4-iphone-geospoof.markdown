@@ -1,6 +1,7 @@
 ---
 layout: post
 title: iphone-geospoof
+date: 2010-10-4-0600
 ---
 ### Test Location Based Code on the iPhone Simulator
 
