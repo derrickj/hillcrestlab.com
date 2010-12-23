@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2010-12-17_22-19
+date: 2010-12-17 22:25:10
 ---
 
 I submitted Regions a little before I started school. Due to some [bugs](http://openradar.appspot.com/8351167) in the Region Monitoring API, and my lack of thorough testing on iOS 4.1, it was unreliable. I wasn't able to work on it during school, and didn't want to delete my App and risk losing the name. I resorted to posting a message in the description that basically said, "Please don't download this."
