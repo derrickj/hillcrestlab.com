@@ -56,5 +56,5 @@ a {
 /*screenshot image allows text to flow around it to its right*/
 #screenshot {
 	width:320px;
-	float:right;
+	float:left;
 }
