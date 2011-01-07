@@ -1,3 +1,4 @@
+@import url("/resources/fonts/BrockScript.css");
 header, nav, footer {
 	display:block;
 }
@@ -57,4 +58,46 @@ a {
 #screenshot {
 	width:320px;
 	float:left;
+}
+
+/* Regions page special stuff */
+#regions-icon {
+	float:left;
+	padding:10px;
+}
+
+#regions-icon img {
+	width:250px;
+	border-radius:30px;
+}
+@import url("/resources/fonts/BrockScript.css");
+#regions-title {
+	font-family:'BrockScriptRegular', helvetica, sans-serif;
+	font-size:8em;
+	margin:0;
+	padding:0;
+}
+#regions-title>a {
+	text-decoration:none;
+}
+
+
+
+#regions-subtitle {
+	padding:0;
+	margin:0;
+	position:relative;
+	left:2em;
+}
+
+#regions-steps {
+	background-color:gray;
+}
+#regions-steps li {
+	display:inline-block;
+	padding:20px;
+}
+#regions-steps img {
+	display:block;
+	width:250px;
 }
