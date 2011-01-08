@@ -66,10 +66,15 @@ a {
 	padding:10px;
 }
 
+#regions-icon-wrap a img{
+	-moz-border:0px solid black;
+}
 #regions-icon {
 	width:250px;
 	border-radius:30px;
 	-webkit-box-shadow: 3px 5px 10px #444;
+	-moz-box-shadow: 3px 5px 10px #444;
+	box-shadow: 3px 5px 10px #444;
 }
 
 #regions-title {
@@ -100,4 +105,11 @@ a {
 #regions-steps img {
 	display:block;
 	width:250px;
+}
+#empty-step{
+	width:250px;
+	height:348px;
+	border: 5px dotted #444;
+	-moz-border-radius:20px;
+	border-radius:20px;
 }
