@@ -61,16 +61,17 @@ a {
 }
 
 /* Regions page special stuff */
-#regions-icon {
+#regions-icon-wrap {
 	float:left;
 	padding:10px;
 }
 
-#regions-icon img {
+#regions-icon {
 	width:250px;
 	border-radius:30px;
+	-webkit-box-shadow: 3px 5px 10px #444;
 }
-@import url("/resources/fonts/BrockScript.css");
+
 #regions-title {
 	font-family:'BrockScriptRegular', helvetica, sans-serif;
 	font-size:8em;
@@ -81,8 +82,6 @@ a {
 	text-decoration:none;
 }
 
-
-
 #regions-subtitle {
 	padding:0;
 	margin:0;
@@ -91,6 +90,7 @@ a {
 }
 
 #regions-steps {
+	clear:left;
 	background-color:gray;
 }
 #regions-steps li {
