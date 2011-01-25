@@ -15,11 +15,11 @@ I'd like to get feedback before expending a ton of energy promoting it. I don't 
 Each tester has to:
 
 1. Connect their phone to iTunes.
-2. Find and e-mail me their UUID.
+2. Find and e-mail me their UDID.
 
 Then I have to:
 
-1. Enter each UUID into the iOS developer portal.
+1. Enter each UDID into the iOS developer portal.
 2. Generate a mobile provisioning profile for the group.
 3. Build the app and bundle it with the provisioning profile.
 
