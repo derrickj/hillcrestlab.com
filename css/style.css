@@ -8,6 +8,7 @@ body {
 	width:960px;
 	font-weight:200;
 	margin:auto;
+	line-height:1.5em;
 }
 
 a#logo{
@@ -113,3 +114,14 @@ a {
 	-moz-border-radius:20px;
 	border-radius:20px;
 }
+
+/* about page */
+#social {
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+}
+#social img {
+	padding-right: 10px;
+}
+
