@@ -1,9 +1,11 @@
 @import url("/resources/fonts/BrockScript.css");
+@import url("reset.css");
 header, nav, footer {
 	display:block;
 }
 body {
 	background-color:#ddd;
+	color: #222;
 	font-family:"helvetica neue", helvetica, verdana, sans-serif;
 	width:960px;
 	font-weight:200;
@@ -11,46 +13,86 @@ body {
 	line-height:1.5em;
 }
 
-a#logo{
-	text-decoration:none;
-	font-size:6em;
-	line-height:1em;
-}
-a#logo #hillcrest{
-	color:#0FD1F7;
-	font-weight:100;
-}
-/*shift lab to the left to touch the t*/
-a#logo #lab{
-	position:relative;
-	left:-9px;
-	font-weight:900;
-	color:#37DE50;
-}
+h6, h5, h4, h3, h2, h1 { font-weight: bold; margin: 1em 0;}
+h6 { font-size:1em; }
+h5 { font-size: 1.1em; }
+h4 { font-size: 1.15em; }
+h3 { font-size: 1.2em; }
+h2 { font-size: 1.5em; }
+h1 { font-size: 2em; }
 
+/* style and colors for header*/
 header {
-	border-bottom:1px dotted black;
+	line-height:1em;
+	background-color:#000;
+	color:#fff;
+	font-size: 20px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	
+	/* gradients */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #333, #000); /* Chrome 10+, Saf5.1+ */
+	background-image: -moz-linear-gradient(top, #333, #000); /* FF3.6 */
+	background-image: -ms-linear-gradient(top, #333, #000); /* IE10 */
+	background-image: -o-linear-gradient(top, #333, #000); /* Opera 11.10+ */
+	background-image: linear-gradient(top, #333, #000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#333', EndColorStr='#333'); /* IE6–IE9 */
+
+	
+	/* border radius*/
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
 }
 
+/* alignment for header child elements */
+header * {
+	display:inline-block;
+	vertical-align:middle;
+}
 header nav ul {
-	overflow:hidden;
-	margin:0;
-	padding:0.4em 0 0 0;
-	list-style-type:none;
-	float:right;
-	background-color:#8a8a8a;
-	position:relative;
-	bottom:1.4em; /*1 + 0.4 for bottom to be flush with header bottom*/
-	
-	-moz-border-radius:0.4em 0.4em 0 0;	
-	border-radius:0.4em 0.4em 0 0;
+	margin: 0;
+	padding:0;
+	border:0;
 }
-header nav ul li {
-	float:left;
-	margin-bottom:0;
-	line-height:1;
-	padding:0 0.8em;
+header nav ul li{
+	display:inline-block;
+	padding:10px 10px;
 }
+
+/* search from */
+#searchform {
+	float: right;
+}
+#searchform > input {
+	position: relative;
+	top: 8px;
+	margin-right:20px;
+}
+
+header nav a{
+	color:#eee;
+	text-decoration: none;
+}
+header nav a:hover {
+	color:#fff;
+	text-decoration: underline;
+}
+#logo {
+	background-image: url('../resources/images/logo.png');
+	background-repeat: no-repeat;
+	width:160px;
+	height: 29px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	text-indent: -9999px;
+}
+#logo:hover {
+	background-color:#222;
+}
+
 /*all links purple*/
 a {
 	color:#5C00B8;

@@ -25,15 +25,18 @@
 	</head>
 	<body>
 		<header>
-			<a href="/" id="logo"><span id="hillcrest">hillcrest</span><span id="lab">Lab</span></a>
 			<nav>
 				<ul>
-					<li><a href="/">Home</a></li>
+					<li><a href="/" id="logo">Home</a></li>
 					<li><a href="/regions/faq.html">Regions FAQ</a></li>
 					<li><a href="/blog/">Blog</a></li>
 					<li><a href="/about.html">About</a></li>
 				</ul>
 			</nav>
+			<form method="GET" action="http://www.google.com/search" id="searchform">
+				<input name="q" type="text" placeholder="Search...">
+				<input name="sitesearch" type="hidden" value="hillcrestlab.com">
+			</form>
 		</header>
 		<div id="container">
 			{{ content }}
