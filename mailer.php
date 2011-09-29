@@ -3,7 +3,7 @@ layout: base
 title: mailer
 ---
 <?php
-$to = "&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#100;&#101;&#114;&#114;&#105;&#099;&#107;&#064;&#104;&#105;&#108;&#108;&#099;&#114;&#101;&#115;&#116;&#108;&#097;&#098;&#046;&#099;&#111;&#109;"; // all messages go to my inbox
+$to = "info@hillcrestlab.com"; // all messages go to my inbox
 $reply_to = $_POST['email']; // the person that used the form to send a message. So I can reply to the person from my mail client if need be
 $message = $_POST['message'];
 $subject = "My subject";
