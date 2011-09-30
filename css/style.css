@@ -159,7 +159,19 @@ a {
 	border-radius:20px;
 }
 
-/* about page */
+/* Contact page */
+form.contact * {
+	display:block;
+}
+form.contact > div {
+	padding-bottom: 10px;
+}
+#email, #subject, #message {
+	width : 300px;
+}
+#message {
+	height: 100px;
+}
 #social {
 	list-style-type:none;
 	margin: 0px;
