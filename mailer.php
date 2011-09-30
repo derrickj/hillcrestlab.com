@@ -11,12 +11,6 @@ $headers = "From:$from\r\nReply-To:$reply_to\r\n\r\n";
 $success = mail($to, $subject, $message, $headers);
 ?>
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Mail</title>
-	</head>
-	<body>
 		<h1><?php if ($success) echo 'Mail Sent'; else echo 'Your Message was Not Sent'; ?></h1>
 		<div>
 			<?php
@@ -33,5 +27,5 @@ $success = mail($to, $subject, $message, $headers);
 			}
 			?>
 		</div>
-	</body>
-</html>
+		
+		<a href="contact.html">Back to Contact Page</a>
