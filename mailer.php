@@ -6,7 +6,7 @@ title: mailer
 $to = "info@hillcrestlab.com"; // all messages go to my inbox
 $reply_to = $_POST['email']; // the person that used the form to send a message. So I can reply to the person from my mail client if need be
 $message = $_POST['message'];
-$subject = "My subject";
+$subject = $_POST['subject'];
 $headers = "From:$from\r\nReply-To:$reply_to\r\n\r\n";
 $success = mail($to, $subject, $message, $headers);
 ?>
@@ -14,10 +14,10 @@ $success = mail($to, $subject, $message, $headers);
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Test Mail</title>
+		<title>Mail</title>
 	</head>
 	<body>
-		<h1>Test Mail</h1>
+		<h1><?php if ($success) echo 'Mail Sent'; else echo 'Your Message was Not Sent'; ?></h1>
 		<div>
 			<?php
 			if ($success) {

@@ -5,13 +5,20 @@ title: Contact
 <h1>Contact Me</h1>
 <p>You may use the form below to contact me, or <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#100;&#101;&#114;&#114;&#105;&#099;&#107;&#064;&#104;&#105;&#108;&#108;&#099;&#114;&#101;&#115;&#116;&#108;&#097;&#098;&#046;&#099;&#111;&#109;">email me directly</a>.</p>
 
-<form method="POST" action="mailer.php">
-	<label for="email">Your email address</label>
-	<input type="email" name="email" placeholder="you@example.com" id="email">
-	
-	<label for="message">Message</label>
-	<textarea name="message" placeholder="Brief Message" id="message"></textarea>
-	
+<form method="POST" action="mailer.php" class="contact">
+	<div>
+		<label for="email">Your email address:</label>
+		<input type="email" name="email" placeholder="you@example.com" id="email">
+	</div>
+	<div>
+		<label for="subject">Subject</label>
+		<input type="text" name="subject" placeholder="(Optional)" id="subject">
+		
+	</div>
+	<div>
+		<label for="message">Message:</label>
+		<textarea name="message" placeholder="Brief Message" id="message"></textarea>
+	</div>
 	<input type="submit">
 </form>
 
