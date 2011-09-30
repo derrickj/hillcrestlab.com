@@ -1,5 +1,6 @@
 @import url("/resources/fonts/BrockScript.css");
 @import url("reset.css");
+@import url("960.css");
 header, nav, footer {
 	display:block;
 }
@@ -96,6 +97,33 @@ header nav a:hover {
 /*all links purple*/
 a {
 	color:#5C00B8;
+}
+/* Home page*/
+#tagline {
+	font-size: 4em;
+	line-height: 1.0em;
+	margin: .4em 0;
+}
+
+#hireme,#hireme:visited {
+	padding: 10px 30px;
+	position:relative;
+	
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	/* border radius FIXME all browerss */
+	border-radius: 20px;
+	/* gradient */
+  background-color: #006699;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#006699), to(#000033)); 
+  background-image: -webkit-linear-gradient(top, #006699, #000033); 
+  background-image:    -moz-linear-gradient(top, #006699, #000033); 
+  background-image:     -ms-linear-gradient(top, #006699, #000033); 
+  background-image:      -o-linear-gradient(top, #006699, #000033); 
+  background-image:         linear-gradient(top, #006699, #000033);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#006699', EndColorStr='#000033'); 
+
 }
 
 /*screenshot image allows text to flow around it to its right*/
