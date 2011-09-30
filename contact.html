@@ -8,7 +8,7 @@ title: Contact
 <form method="POST" action="mailer.php" class="contact">
 	<div>
 		<label for="email">Your email address:</label>
-		<input type="email" name="email" placeholder="you@example.com" id="email">
+		<input type="email" name="email" placeholder="you@example.com" id="email" required>
 	</div>
 	<div>
 		<label for="subject">Subject</label>
@@ -17,7 +17,7 @@ title: Contact
 	</div>
 	<div>
 		<label for="message">Message:</label>
-		<textarea name="message" placeholder="Brief Message" id="message"></textarea>
+		<textarea name="message" placeholder="Brief Message" id="message" required></textarea>
 	</div>
 	<input type="submit">
 </form>
