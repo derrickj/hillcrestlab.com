@@ -1,0 +1,4 @@
+# enabling multiviews allows the server to respond to urls w/o extensions 
+# example: /about, if no about file exists, it'll look for /about.html
+Options +MultiViews
+
