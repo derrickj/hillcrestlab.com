@@ -115,12 +115,8 @@ ul.categories li:before {
     content: "#";
 }
 
-ul.categories li:after {
+ul.categories li:not(:last-child):after {
     content: ", ";
-}
-
-ul.categories li:last-child:after {
-    content: "";
 }
 
 ul.categories li {
