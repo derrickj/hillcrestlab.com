@@ -8,6 +8,13 @@ title: Blog
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <span class="date">{{ post.date | date: '%a, %b %d, %Y'}}</span>
 {{ post.content }}
+<footer>
+<ul class="categories">
+{% for c in post.categories %}
+<li>{{c}}</li>
+{% endfor %}
+</li>
+</footer>
 </article>
 {% endfor %}
 

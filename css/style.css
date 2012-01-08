@@ -100,10 +100,34 @@ header nav a:hover {
 a {
 	color:#5C00B8;
 }
+
+/* blog posts */
 article {
   max-width: 600px;
   margin: 1em auto;
 }
+ul.categories {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.categories li:before {
+    content: "#";
+}
+
+ul.categories li:after {
+    content: ", ";
+}
+
+ul.categories li:last-child:after {
+    content: "";
+}
+
+ul.categories li {
+    display: inline;
+    font-style: italic;
+}
+
 /* Home page*/
 .tagline_container {
 	margin: 80px auto;
@@ -237,4 +261,5 @@ form.contact > div {
 .faq {
 	font-size:1.2em;
 }
+
 

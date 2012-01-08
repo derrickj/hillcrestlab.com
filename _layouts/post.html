@@ -5,4 +5,11 @@ layout: base
 <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 <span class="date">{{ page.date | date: '%a, %b %d, %Y' }}</span>
 {{ content }}
+<footer>
+<ul class="categories">
+{% for c in page.categories %}
+<li>{{ c }}</li>
+{% endfor %}
+</ul>
+</footer>
 </article>
